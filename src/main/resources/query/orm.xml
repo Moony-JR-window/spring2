@@ -1,0 +1,45 @@
+<!--&lt;!&ndash; orm.xml &ndash;&gt;-->
+<!--<entity-mappings xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm"-->
+<!--                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--                 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence/orm-->
+<!--                                     http://xmlns.jcp.org/xml/ns/persistence/orm_2_1.xsd"-->
+<!--                 version="2.1">-->
+
+<!--    <named-query name="SearchTransaction.findRecentTransactionsByFilterDto">-->
+<!--        <query>-->
+<!--            <![CDATA[-->
+<!--                SELECT rt FROM SearchTransaction rt-->
+<!--                WHERE rt.account.accountId = :accountId-->
+<!--                AND rt.transactionAmount BETWEEN :minAmount AND :maxAmount-->
+<!--                AND rt.transactionDate BETWEEN :startDate AND :endDate-->
+<!--                ORDER BY rt.transactionDate DESC-->
+<!--            ]]>-->
+<!--        </query>-->
+<!--    </named-query>-->
+
+<!--</entity-mappings>-->
+
+
+
+
+
+<!--        &lt;!&ndash;&lt;!&ndash; orm.xml &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;<entity-mappings xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm"&ndash;&gt;-->
+<!--&lt;!&ndash;                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&ndash;&gt;-->
+<!--&lt;!&ndash;                 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence/orm&ndash;&gt;-->
+<!--&lt;!&ndash;                                     http://xmlns.jcp.org/xml/ns/persistence/orm_2_1.xsd"&ndash;&gt;-->
+<!--&lt;!&ndash;                 version="2.1">&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <named-query name="SearchTransaction.findRecentTransactionsByFilterDto">&ndash;&gt;-->
+<!--&lt;!&ndash;        <query>&ndash;&gt;-->
+<!--&lt;!&ndash;            <![CDATA[&ndash;&gt;-->
+<!--&lt;!&ndash;                SELECT rt FROM SearchTransaction rt&ndash;&gt;-->
+<!--&lt;!&ndash;                WHERE rt.account.accountId = :accountId&ndash;&gt;-->
+<!--&lt;!&ndash;                AND rt.transactionAmount BETWEEN :minAmount AND :maxAmount&ndash;&gt;-->
+<!--&lt;!&ndash;                AND rt.transactionDate BETWEEN :startDate AND :endDate&ndash;&gt;-->
+<!--&lt;!&ndash;                ORDER BY rt.transactionDate DESC&ndash;&gt;-->
+<!--&lt;!&ndash;            ]]>&ndash;&gt;-->
+<!--&lt;!&ndash;        </query>&ndash;&gt;-->
+<!--&lt;!&ndash;    </named-query>&ndash;&gt;-->
+
+<!--&lt;!&ndash;</entity-mappings>&ndash;&gt;-->
